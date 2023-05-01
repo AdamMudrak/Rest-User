@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8746547b-1b82-4ad8-8dfe-58f819b888a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/app/controllers/RestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682959028614</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add UserService implementation">
+      <created>1682959880879</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682959880879</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add ENUM with status messages">
+      <created>1682960057573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682960057573</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add dependencies and Response functionality">
+      <created>1682960304491</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682960304491</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -93,6 +115,9 @@
     <MESSAGE value="Add domain" />
     <MESSAGE value="Add exception handler" />
     <MESSAGE value="Add UserService interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add UserService interface" />
+    <MESSAGE value="Add UserService implementation" />
+    <MESSAGE value="Add ENUM with status messages" />
+    <MESSAGE value="Add dependencies and Response functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add dependencies and Response functionality" />
   </component>
 </project>
