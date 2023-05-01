@@ -8,6 +8,14 @@ public class User {
     private String phone;
     private String email;
 
+    public User(Long id, String firstName, String lastName, String phone, String email) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.email = email;
+    }
+
     public Long getId() {
         return id;
     }
