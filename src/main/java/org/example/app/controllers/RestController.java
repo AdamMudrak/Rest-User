@@ -24,6 +24,13 @@ public class RestController {
             return new Gson().toJson(new Response(Status.SUCCESS));
         }));
 
+        get("/users", (request, response) -> {
+            response.type("application/json");
+
+            return new Gson().toJson(new Response(Status.SUCCESS,
+                    new Gson().toJsonTree(service.getUsers())));
+        });
+
         get("/users/:id", ((request, response) -> {
             response.type("application/json");
 
