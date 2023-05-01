@@ -15,14 +15,14 @@ public class RestController {
 
         final UserService service = new UserServiceImpl();
 
-        post("/users", ((request, response) -> {
+        post("/users", (request, response) -> {
             response.type("application/json");
 
             User user = new Gson().fromJson(request.body(), User.class);
             service.addUser(user);
 
             return new Gson().toJson(new Response(Status.SUCCESS));
-        }));
+        });
 
         get("/users", (request, response) -> {
             response.type("application/json");
